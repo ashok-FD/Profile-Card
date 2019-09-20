@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>User profile </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+<body>
+      <div class="container-fluid">
+    <div class="card" style="width: 50rem;">
+        <div class="card-header" id="cardhead">
+            <span class="h3">Ask</span>
+            <img src="https://www.designfreelogoonline.com/wp-content/uploads/2016/07/000749-online-store-logos-design-free-online-E-commerce-cart-logo-maker-04.png"
+                alt="technology" width="80" height="80" />
+            <span class="h3">Shopping</span>
+        </div>
+        <div class="card-body">
+            <div class="card-title"><h4>User Profile</h4></div>
+                <!--form strat-->
+                <form id="mainform">
+                <div class="form-group row">
+                    <!--name field-->
+                    
+                    <div class="col-sm-6">
+                        <input type="text"   class="form-control-plaintext" id="fname"  placeholder="First name">
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="text"   class="form-control-plaintext" id="lname"  placeholder="Last name">
+                    </div>
+                </div>
+                    <div class="form-group row">
+                        <!--Email-->
+                        
+                        <div class="col-sm-10">
+                            <input type="email"   class="form-control-plaintext" id="email" placeholder="Email">
+                        </div>
+                        </div>
+                        <div class="form-group row form-control-plaintext">
+                            <div class="col-sm-10">
+                            <select class="custom-select" id="gender">
+                                <option selected>Gender</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Others</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <!--Contact-->
+                            <div class="col-sm-6">
+                                <input type="tel" class="form-control-plaintext" id="number1" maxlength="10" placeholder="Mobile Number">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="tel" class="form-control-plaintext" id="number2" maxlength="10" placeholder="Personal number">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <!--URL-->
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control-plaintext" id="url" placeholder="Website url">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <!--Address-->
+                            <div class="col-sm-10">
+                                <textarea class="form-control-plaintext" id="address" placeholder="Enter your address"></textarea>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+        <div class="card-footer">
+            <div class="button">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <button type="button" id="btn_enable" class="btn btn-primary btn-lg">Edit</button>
+                    </div>
+                    <div class="col-sm-10">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <button type="button" id="ok" class="btn btn-success btn-lg ">Ok</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="index.html">
+                                    <button type="button" id="cancel" class="btn btn-danger btn-lg">Cancel</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <button type="button" id="btn_disable" class="btn btn-success btn-lg ">Save</button>
+                    </div>
+                </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+        <script src="profile.js"></script>
+    </div>
+    </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  </body>
+</html>
